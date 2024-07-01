@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aa3d111-4e6c-4ea0-a6c2-402cd273485f" name="Changes" comment="Setup db and prisma">
-      <change afterPath="$PROJECT_DIR$/backend/src/recipe-api.ts" afterDir="false" />
+    <list default="true" id="7aa3d111-4e6c-4ea0-a6c2-402cd273485f" name="Changes" comment="Setup spoonacular and create search endpoint">
+      <change afterPath="$PROJECT_DIR$/backend/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +46,24 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "/home/suchiru/.nvm/versions/node/v20.12.2/bin/node",
     "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
     "npm.start.executor": "Run",
     "settings.editor.selected.configurable": "settings.nodejs",
-    "ts.external.directory.path": "/home/suchiru/Desktop/Projects/Project 2/PERN-My-Recipe-App/backend/node_modules/typescript/lib",
+    "ts.external.directory.path": "/home/suchiru/Desktop/Projects/Project 2/PERN-My-Recipe-App/frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/backend/package.json" />
       <command value="run" />
@@ -66,6 +74,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.dev" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -82,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719849491880</updated>
-      <workItem from="1719849493549" duration="7334000" />
+      <workItem from="1719849493549" duration="8511000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -108,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719854571985</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Setup spoonacular and create search endpoint">
+      <option name="closed" value="true" />
+      <created>1719857139324</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719857139324</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +141,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initializing backend" />
     <MESSAGE value="Setup db and prisma" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup db and prisma" />
+    <MESSAGE value="Setup spoonacular and create search endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup spoonacular and create search endpoint" />
   </component>
 </project>
