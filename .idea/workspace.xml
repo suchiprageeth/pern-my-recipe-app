@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7aa3d111-4e6c-4ea0-a6c2-402cd273485f" name="Changes" comment="Initialize frontend">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/types.ts" afterDir="false" />
+    <list default="true" id="7aa3d111-4e6c-4ea0-a6c2-402cd273485f" name="Changes" comment="Creating APi to fetch data and displaying serach results in UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.start">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/frontend/package.json" />
       <command value="run" />
@@ -103,7 +99,7 @@
       <workItem from="1719849493549" duration="8856000" />
       <workItem from="1719931661148" duration="2433000" />
       <workItem from="1719970419542" duration="21000" />
-      <workItem from="1720456572729" duration="1201000" />
+      <workItem from="1720456572729" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -153,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719858410161</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Creating APi to fetch data and displaying serach results in UI">
+      <option name="closed" value="true" />
+      <created>1720457925731</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720457925731</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +173,7 @@
     <MESSAGE value="Setup spoonacular and create search endpoint" />
     <MESSAGE value="Add tsconfig file inorder handle module imports" />
     <MESSAGE value="Initialize frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize frontend" />
+    <MESSAGE value="Creating APi to fetch data and displaying serach results in UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating APi to fetch data and displaying serach results in UI" />
   </component>
 </project>

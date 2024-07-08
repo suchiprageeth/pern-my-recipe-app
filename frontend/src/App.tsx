@@ -4,7 +4,7 @@ import * as api from "./api";
 import {Recipe} from "./types.ts";
 
 const App = () => {
-  const [searchTerm, setSearchTerm] = useState("burgers");
+  const [searchTerm, setSearchTerm] = useState<string>("");
   const [recipes, setRecipes] = useState<Recipe[]>([]);
 
   const handleSearchSubmit = async(event: FormEvent)=>{
@@ -20,6 +20,7 @@ const App = () => {
     console.log(19, recipes)
   return <div>
       <form onSubmit={(event)=>handleSearchSubmit(event)}>
+          <input type="text" placeholder="Enter a Search Criteria" value={searchTerm} onChange={(e)=>setSearchTerm(e.target.value)} required></input>
           <button type="submit">Search</button>
       </form>
       {recipes.map((recipe) => (
